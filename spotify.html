@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify File</title>
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="stylesheet" href="utility.css">
+    <!-- Add this in your <head> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script src="https://kit.fontawesome.com/c58bb71a7b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="spotify-app">
+        <header class="top-bar">
+          <div class="left-section">
+            <!-- Spotify Logo SVG (simplified) -->
+             <i class="fa-solid fa-bars hamburger"></i>
+            <ul class="spotify-logo">
+                <li><img src="spotify2.svg" alt="Spotify Logo"></img></li>
+            </ul>
+            
+            <!-- Placeholder for another icon -->
+             
+            <div class="circle-icon1">
+               <i class="fa-solid fa-house" style="color: #f9fafb;"></i>           
+              </div>
+
+            
+            <div class="search-bar">
+              
+            <i class="fa-solid fa-magnifying-glass search-icon" ></i>
+            <input type="text" placeholder="What do you want to play?" class="search-input"/></input>
+            </div>
+          </div>
+      
+          <div class="right-section">
+            
+            
+            <nav class="nav-links">
+              <div class="active">
+              <a href="#">Premium</a><a href="#">Support</a><a href="#">Download</a>
+              </div>
+              <a href="#">Install App</a>
+              <a href="#">Sign Up</a>
+            </nav>
+            <div class="circle-icon2">
+            <i class="fa-solid fa-user"></i>
+            </div>
+
+            <button class="login-btn">Log In</button>
+          </div>
+        </header>
+        <div class="main-container">
+          <div class="left-container show-sidebar">
+            <div class="left-top-bar">
+              
+              <h2>Your Library</h2>
+              <h3>+</h3>
+             </div>
+             <div class="left-mid-bar">
+              <div class="left-mid-bar1 mid-bar">
+              <p><strong>Create your first playlist</strong></p>
+              <p>It's easy, we'll help you</p>
+              <button>Create playlist</button>
+              </div>
+             
+             <div class="left-mid-bar2 mid-bar">
+              <p><strong>Let's find some podcasts to follow</strong></p>
+              <p>We'll keep you updated on new episodes</p>
+              <button>Browse podcasts</button>
+             </div>
+             </div>
+             <div class="left-down-bar">
+              <h6>Legal</h6><h6>Safety&Privacy Center</h6><h6>Privacy Policy</h6>
+              <h6>Cookies</h6>
+              <h6>About Ads</h6>
+              <h6>Accessibility</h6>
+              <h6>Cookies</h6>
+              
+             </div>
+          </div>
+           
+          <div class="right-container">
+            <div class="right-top-bar1">
+                <div class="trending-header">
+                        <h3>Trending Songs</h3>
+                        <p >Show all</p>
+                      </div>
+                <div class="trending-row">
+                <div class="song card " data-index="0">
+                   <img src="vibe.png" alt="song1">
+                   <div class="play-button">
+                       <svg data-encore-id="icon" role="img" aria-hidden="true"
+                       class="play-icon" viewBox="0 0 24 24">
+                        <path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path>
+                         </svg>
+                    </div>
+                 <div class="artist">
+                  <p class="song-title">Vibe (Feat. Shanaya Kapoor)</p>
+                  <p class="song-artist">Guru Randhawa, French Montana, JSL Singh</p>
+                  </div>
+                </div>
+                <div class="song card" data-index="1">
+                   <img src="vibe.png" alt="song1">
+                    <div class="play-button">
+                       <svg data-encore-id="icon" role="img" aria-hidden="true"
+                       class="play-icon" viewBox="0 0 24 24">
+                        <path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path>
+                         </svg>
+                    </div>
+               <div class="artist">
+                  <p class="song-title">Vibe (Feat. Shanaya Kapoor)</p>
+                  <p class="song-artist">Guru Randhawa, French Montana, JSL Singh</p>
+                  </div>
+                </div>
+                <div class="song card" data-index="2">
+                    <img src="vibe.png" alt="song1">
+                     <div class="play-button">
+                       <svg data-encore-id="icon" role="img" aria-hidden="true"
+                       class="play-icon" viewBox="0 0 24 24">
+                        <path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path>
+                         </svg>
+                    </div>
+                 <div class="artist">
+                  <p class="song-title">Vibe (Feat. Shanaya Kapoor)</p>
+    <p class="song-artist">Guru Randhawa, French Montana, JSL Singh</p>
+                  </div>
+                </div>
+                <div class="song card" data-index="3">
+                    <img src="vibe.png" alt="song1">
+                     <div class="play-button">
+                       <svg data-encore-id="icon" role="img" aria-hidden="true"
+                       class="play-icon" viewBox="0 0 24 24">
+                        <path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path>
+                         </svg>
+                    </div>
+                <div class="artist">
+                  <p class="song-title">Vibe (Feat. Shanaya Kapoor)</p>
+    <p class="song-artist">Guru Randhawa, French Montana, JSL Singh</p>
+                  </div>
+                </div>
+                <div class="song card" data-index="4">
+                    <img src="vibe.png" alt="song1">
+                     <div class="play-button">
+                       <svg data-encore-id="icon" role="img" aria-hidden="true"
+                       class="play-icon" viewBox="0 0 24 24">
+                        <path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path>
+                         </svg>
+                    </div>
+                  <div class="artist">
+                  <p class="song-title">Vibe (Feat. Shanaya Kapoor)</p>
+    <p class="song-artist">Guru Randhawa, French Montana, JSL Singh</p>
+                  </div>
+                </div>
+                <div class="song card" data-index="5">
+                    <img src="vibe.png" alt="song1">
+                     <div class="play-button">
+                       <svg data-encore-id="icon" role="img" aria-hidden="true"
+                       class="play-icon" viewBox="0 0 24 24">
+                        <path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path>
+                         </svg>
+                    </div>
+                 <div class="artist">
+                  <p class="song-title">Vibe (Feat. Shanaya Kapoor)</p>
+    <p class="song-artist">Guru Randhawa, French Montana, JSL Singh</p>
+                  </div>
+                </div>
+                <div class="song card" data-index="6">
+                    <img src="vibe.png" alt="song1">
+                     <div class="play-button">
+                       <svg data-encore-id="icon" role="img" aria-hidden="true"
+                       class="play-icon" viewBox="0 0 24 24">
+                        <path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path>
+                         </svg>
+                    </div>
+                 <div class="artist">
+                  <p class="song-title">Vibe (Feat. Shanaya Kapoor)</p>
+    <p class="song-artist">Guru Randhawa, French Montana, JSL Singh</p>
+                  </div>
+                </div>
+                <div class="song card" data-index="7">
+                    <img src="vibe.png" alt="song1">
+                     <div class="play-button">
+                       <svg data-encore-id="icon" role="img" aria-hidden="true"
+                       class="play-icon" viewBox="0 0 24 24">
+                        <path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path>
+                         </svg>
+                    </div> 
+                  <div class="artist">
+                  <p class="song-title">Vibe (Feat. Shanaya Kapoor)</p>
+    <p class="song-artist">Guru Randhawa, French Montana, JSL Singh</p>
+                  </div>
+                </div>
+                <div class="song card" data-index="8">
+                    <img src="vibe.png" alt="song1">
+                     <div class="play-button">
+                       <svg data-encore-id="icon" role="img" aria-hidden="true"
+                       class="play-icon" viewBox="0 0 24 24">
+                        <path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path>
+                         </svg>
+                    </div>
+                    <div class="artist">
+                 <p class="song-title">Vibe (Feat. Shanaya Kapoor)</p>
+                <p class="song-artist">Guru Randhawa, French Montana, JSL Singh</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="playbar">
+
+  <!-- Left: Music Image + Name -->
+  <div class="playbar show">
+
+  <!-- Left Side -->
+  <div class="music-logo">
+    <img src="vibe.png" alt="song1">
+    <div class="music-name">
+      <p class="song-title">Vibe (Feat. Shanaya Kapoor)</p>
+      <p class="song-artist">Guru Randhawa, French Montana, JSL Singh</p>
+    </div>
+  </div>
+
+  <!-- Center Side -->
+  <div class="playbar-song">
+    <div class="controls">
+      <div class="back"><i class="fa-solid fa-backward-step"></i></div>
+      <div class="togglePlay"><i class="fa-solid fa-play"></i></div>
+      <div class="next"><i class="fa-solid fa-forward-step"></i></div>
+    </div>
+    <div class="time-container">
+  <span class="current-time">0:00</span>
+  <input type="range" class="seekbar" min="0" max="100" value="0">
+  <span class="total-duration">0:00</span>
+</div>
+   
+
+  </div>
+   <div class="volume-bar">
+    <i id="volume-icon" class="fa-solid fa-volume-low"></i>
+    <input type="range" class="volume-slider" min="0" max="100" value="50">
+   </div>
+  
+</div>
+
+
+      </div>
+      
+
+<script src="spotify.js"></script>
+
+</body>
+</html>
