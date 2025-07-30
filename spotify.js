@@ -1,15 +1,15 @@
 console.log("Spotify Clone Ready");
 
 let songs = [
-  "songs/02 Phir Bhi Tumko Chahunga (Arijit Singh) 320Kbps.mp3",
-  "songs/03 Mera Yaar.mp3",
-  "songs/Dooriyan - Love Aaj Kal 128 Kbps.mp3",
-  "songs/Ik Vaari Aa - Raabta (Arijit Singh) 320Kbps.mp3",
-  "songs/Khuda Bhi Jab Acoustic 320 Raag.Me.mp3",
-  "songs/Taare - Guru Randhawa (DjPunjab.Com).mp3",
-  "songs/Taare - Guru Randhawa (DjPunjab.Com).mp3",
-  "songs/Tu_Jaane_Na_(Unplugged_Version)(wapking.in).mp3",
-  "songs/Yaar Mod Do - Guru Randhawa (DjPunjab.Com).mp3",
+  "songs/02-Phir-Bhi-Tumko-Chahunga-(Arijit-Singh)-320Kbps.mp3",
+  "songs/03-mera-yarr.mp3",
+  "songs/Dooriyaan.mp3",
+  "songs/Ik-Vaari.mp3",
+  "songs/Khuda-bhi.mp3",
+  "songs/Tare.mp3",
+  "songs/Tu-jane-na.mp3",
+  "songs/Yaar-mod-do.mp3",
+  
 ]; // 🎧 Add your actual filenames here
 let currentIndex = 0;
 let currentSong = new Audio(songs[currentIndex]);
